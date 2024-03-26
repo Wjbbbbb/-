@@ -1,0 +1,26 @@
+.table {
+    width: 80%;
+    text-align: center;
+    border-collapse: separate;
+    padding: 10px;
+    border: 2px solid black;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(252, 252, 242);
+    opacity: 82%;
+}
+
+.td{
+    border: 2px solid black;
+    font-size: larger;
+    font-weight: 1.2em;
+}
+
+
+.th{
+    border: 2px solid black;
+    font-size: larger;
+    font-weight: 1.2em;
+}

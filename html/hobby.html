@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="../css/index.css">
+    <script src="https://cdn.staticfile.net/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.net/twitter-bootstrap/5.1.1/js/bootstrap.bundle.min.js"></script>
+    <title>兴趣爱好</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-md bg-primary navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="../index.html">&emsp;首页&emsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="introducction.html">&emsp;个人简介&emsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="hobby.html">&emsp;兴趣爱好&emsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="table.html">&emsp;课程表&emsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="photo.html">&emsp;我的照片&emsp;</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="wenjuan.html">&emsp;调查问卷&emsp;</a>
+            </li>
+            
+        </ul>
+    </nav>
+    <div style="display: flex; width: 100%;" class="hobby">
+        <div class="content">
+            <ul class="l1" id="l1"><b>我的兴趣爱好</b>
+                <li>Python</li>
+                <li>WEB</li>
+                <li>机器学习</li>
+                <li>大模型</li>
+                <li>农</li>
+                <li>CODM</li>
+                <li>Ultraman</li>
+            </ul>
+            <ol class="l2" id="l2"><b>Python学习路程</b>
+                <li>Python基础</li>
+                <li>面向对象编程</li>
+                <li>前端开发</li>
+                <li>后端开发</li>
+                <li>Web开发</li>
+                <li>爬虫</li>
+                <li>数据分析</li>
+                <li>机器学习</li>
+                <li>自然语言处理</li>
+                <li>人工智能</li>
+            </ol>
+            <ul class="l3" id="l3"><b>常见的WEB框架</b>
+                <li>Django</li>
+                <li>Express.js</li>
+                <li>Flask</li>
+                <li>Streamlit</li>
+                <li>Spring</li>
+                <li>bootstrap</li>
+                <li>jquery</li>
+                <li>Django</li>
+                <li>Express.js</li>
+                <li>Flask</li>
+                <li>Streamlit</li>
+                <li>Spring</li>
+                <li>bootstrap</li>
+                <li>jquery</li><li>Django</li>
+                <li>Express.js</li>
+                <li>Flask</li>
+                <li>Streamlit</li>
+                <li>Spring</li>
+                <li>bootstrap</li>
+                <li>jquery</li>
+            </ul>
+            <ul class="l4" id="l4"><div style="display: flex;"><b>小黑子</b><p class="biedian">（千万别点！！！！！）</p></div>
+                <li id="quan">全民制作人们大家好</li>
+                <li id="name">我是</li>
+                <li id="sing">唱</li>
+                <li id="dance">跳</li>
+                <li id="rap">RAP</li>
+                <li id="basketball">篮球</li>
+                <li id="music">music</li>
+            </ul>
+            <audio id="quanAudio" src="../yinyue/quan.mp3" preload="auto"></audio>
+            <audio id="nameAudio" src="../yinyue/name.mp3" preload="auto"></audio>
+            <audio id="singAudio" src="../yinyue/sing.mp3" preload="auto"></audio>
+            <audio id="danceAudio" src="../yinyue/dance.mp3" preload="auto"></audio>
+            <audio id="rapAudio" src="../yinyue/rap.mp3" preload="auto"></audio>
+            <audio id="basketballAudio" src="../yinyue/basketball.mp3" preload="auto"></audio>
+            <audio id="musicAudio" src="../yinyue/music.mp3" preload="auto"></audio>
+            <script>
+                document.getElementById('quan').addEventListener('click', function() {
+                    var audio = document.getElementById('quanAudio');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.currentTime = 0; 
+                        audio.play();
+                    }
+                });
+
+                document.getElementById('name').addEventListener('click', function() {
+                    var audio = document.getElementById('nameAudio');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.currentTime = 0; 
+                        audio.play();
+                    }
+                });
+
+                document.getElementById('sing').addEventListener('click', function() {
+                    var audio = document.getElementById('singAudio');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.currentTime = 0; 
+                        audio.play();
+                    }
+                });
+                
+                document.getElementById('dance').addEventListener('click', function() {
+                    var audio = document.getElementById('danceAudio');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.currentTime = 0; 
+                        audio.play();
+                    }
+                });
+                
+                document.getElementById('rap').addEventListener('click', function() {
+                    var audio = document.getElementById('rapAudio');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.currentTime = 0; 
+                        audio.play();
+                    }
+                });
+                
+                document.getElementById('basketball').addEventListener('click', function() {
+                    var audio = document.getElementById('basketballAudio');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.currentTime = 0; 
+                        audio.play();
+                    }
+                });
+
+                document.getElementById('music').addEventListener('click', function() {
+                    var audio = document.getElementById('musicAudio');
+                    if (audio.paused) {
+                        audio.play();
+                    } else {
+                        audio.pause();
+                    }
+                });
+
+                </script>
+        </div>
+        <div class="bar">
+            <ul>
+                <br><br><br><br>
+                <li><a href="#l1">爱好</a></li><br><br><br><br>
+                <li><a href="#l2">py</a></li><br><br><br><br>
+                <li><a href="#l3">web</a></li><br><br><br><br>
+                <li><a href="#l4">小黑子</a></li><br><br><br><br>
+
+            </ul>
+        </div>
+    </div>
+    <table class="cpr">
+        <tr >
+            <td>COPYRIGHT ©wjbbbbb</td>
+        </tr>
+        <tr>
+            <td>2024/3/26</td>
+        </tr>
+    </table>
+</body>
+</html>

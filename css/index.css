@@ -1,0 +1,105 @@
+.nav-link{
+    color: white;
+    font-weight: bolder;
+}
+
+.container{
+    text-align: center;
+    padding: 0;
+    border-radius: 5px;
+    border: 2px solid black;
+    margin-top: 35px;
+}
+
+.shouye{
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 99%;
+    height: 500px;
+}
+.zhaopian{
+    border-radius: 5px;
+    margin: 0 auto;
+    width: 99%;
+    height: 500px;
+}
+
+.cpr{
+    text-align: center;
+    background-color: rgb(25, 112, 212);
+    width: 100%;
+    bottom: 0;
+}
+
+.wenjuanbk{
+    background-image: url(../images/wenjun.png);
+}
+
+.wenjuan {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 460px;
+    background-color: white;
+    border-radius: 5px;
+    border: 1px;
+}
+
+.wenjuan td {
+    padding: 10px;
+}
+
+
+
+
+input:hover {
+    border: 4px solid rgb(130, 203, 255);
+}
+
+select:hover{
+    border: 4px solid rgb(130, 203, 255);
+}
+
+.intro td {
+    padding: 10px;
+    font-size: larger;
+}
+.intro {
+    width: 99%;
+    margin-left: 320px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+input[type="checkbox"]:checked {
+    color: rgb(54, 164, 255);}
+
+.image {
+    transition: transform 0.3s;
+}
+
+.image:hover {
+    transform: scale(1.1);
+}
+
+
+.hobby{
+    width: 1460px;
+}
+    
+.content{
+    width: 96%;
+    background-color: white;
+}
+
+.bar{
+    width: 4%;
+    background-color: rgb(124, 165, 253);
+    border-radius: 2px;
+    box-shadow: -4px 0.5px 5px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    right: 0;
+}
+
+.biedian{
+    color: red;
+}
